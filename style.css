@@ -14,7 +14,7 @@
     .logo {
         width: 25%; /* Adjust as needed */
         height: auto;
-        max-width: 60%; /* Prevents the image from exceeding its natural size */
+        max-width: 40%; /* Prevents the image from exceeding its natural size */
         display: block; /* Ensures the margin works properly */
         margin: 0 auto; /* Centers the image horizontally */
     }
