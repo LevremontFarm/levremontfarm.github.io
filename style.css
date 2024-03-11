@@ -1,19 +1,23 @@
 /* So basically you have a phone */
 @media (pointer: coarse) .logo {
-    width: 25%; /* Adjust as needed */
-    height: auto;
-    max-width: 50%; /* Prevents the image from exceeding its natural size */
-    display: block; /* Ensures the margin works properly */
-    margin: 0 auto; /* Centers the image horizontally */
+    .logo {
+        width: 10%; /* Adjust as needed */
+        height: auto;
+        max-width: 50%; /* Prevents the image from exceeding its natural size */
+        display: block; /* Ensures the margin works properly */
+        margin: 0 auto; /* Centers the image horizontally */
+    }
 }
 
 /* and you have a computer */
-@media (pointer: fine), (pointer: none) .logo {
-    width: 25%; /* Adjust as needed */
-    height: auto;
-    max-width: 80%; /* Prevents the image from exceeding its natural size */
-    display: block; /* Ensures the margin works properly */
-    margin: 0 auto; /* Centers the image horizontally */
+@media (pointer: fine), (pointer: none) {
+    .logo {
+        width: 25%; /* Adjust as needed */
+        height: auto;
+        max-width: 60%; /* Prevents the image from exceeding its natural size */
+        display: block; /* Ensures the margin works properly */
+        margin: 0 auto; /* Centers the image horizontally */
+    }
 }
 
 .title {
